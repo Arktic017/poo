@@ -1,0 +1,385 @@
+.InicioAdmi {
+    text-align: right;
+    margin-top: -16px;  /* mover arriba o abajo */
+    margin-right: 127px; /* mover derecha o izquierda */
+    font-size: 17px;
+    
+}
+
+
+.InicioAdmi a {
+    color: rgb(249, 20, 39); /* Puedes cambiar el color del enlace según tus preferencias */
+}
+
+
+.Datos {
+    position: absolute;
+    top: 60%;
+    left: 17%;
+    transform: translate(-50%, -50%);
+    width: 422px; /*  el ancho del cuadro azul*/
+    height: 500px;/*  lo alto del cuadro azul*/
+    background: #AFD2DB;
+    border-radius: 40px;
+    margin-top: 30px;
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.CrearCuentaTitulo {
+    font-size: 3em;
+    font-family: "Cambria";
+  }
+
+
+.Datos form{
+
+    width: 100%;
+
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+
+
+form .CajaNombres{
+
+    width: 100%;
+    position: relative;
+    border-bottom: 2px solid #562A2A;
+    margin-bottom: 30px;
+}
+
+
+.CajaNombres input{
+    
+    width: 100%;
+    height: 38px;
+    font-size: 16px;
+    border: none;
+    background: none;
+    outline: none;
+}
+
+
+.CajaNombres label{
+
+    
+    position: absolute;
+
+    top: -23%;  /* posicion del nombre donde se ingresa informacion*/
+    left: 5px;
+    color: #DAC9CD;
+    transform: translateY(-30%);
+    font-size: 17px;
+    pointer-events: none;
+    transition: .6s;
+}
+
+
+.CajaNombres span::before{
+    content: '';
+    position: absolute;
+    top: 40px;
+    left: 0;
+    width: 50%;
+    height: 2px;
+    background: #F6D6F5;
+    transition: .5s;
+}
+
+
+.CajaNombres input:focus~label, 
+.CajaNombres input:focus~label{
+    top: -20px;
+    color: #F6D6F5;
+}
+
+
+.CajaNombres input:focus~span::before,
+.CajaNombres input:focus~span::before{
+    width: 100%;
+
+}
+
+
+form .CajaApellidos{
+
+    width: 100%;
+    position: relative;
+    border-bottom: 2px solid #562A2A;
+    margin-bottom: 30px;
+}
+
+
+.CajaApellidos input{
+    width: 100%;
+    
+    height: 38px;
+    font-size: 16px;
+    border: none;
+    background: none;
+    outline: none;
+}
+
+
+.CajaApellidos label{
+    position: absolute;
+    top: -23%;
+    left: 5px;
+    color: #DAC9CD;
+    transform: translateY(-30%);
+    font-size: 17px;
+    pointer-events: none;
+    transition: .6s;
+}
+
+
+.CajaApellidos span::before{
+    content: '';
+    position: absolute;
+    top: 40px;
+    left: 0;
+    width: 50%;
+    height: 2px;
+    background: #F6D6F5;
+    transition: .6s;
+}
+
+
+.CajaApellidos input:focus~label, 
+.CajaApellidos input:focus~label{
+    top: -20px;
+    color: #F6D6F5;
+}
+
+
+.CajaApellidos input:focus~span::before,
+.CajaApellidos input:focus~span::before{
+    width: 100%;
+
+}
+
+
+form .CajaCorreo{
+
+    width: 100%;
+    position: relative;
+    border-bottom: 2px solid #562A2A;
+    margin-bottom: 30px;
+}
+
+
+.CajaCorreo input{
+    width: 100%;
+    
+    height: 38px;
+    font-size: 16px;
+    border: none;
+    background: none;
+    outline: none;
+}
+
+
+.CajaCorreo label{
+    position: absolute;
+    top: -23%;
+    left: 5px;
+    color: #DAC9CD;
+    transform: translateY(-30%);
+    font-size: 17px;
+    pointer-events: none;
+    transition: .6s;
+}
+
+
+.CajaCorreo span::before{
+    content: '';
+    position: absolute;
+    top: 40px;
+    left: 0;
+    width: 50%;
+    height: 2px;
+    background: #F6D6F5;
+    transition: .6s;
+}
+
+
+.CajaCorreo input:focus~label, 
+.CajaCorreo input:focus~label{
+    top: -20px;
+    color: #F6D6F5;
+}
+
+
+.CajaCorreo input:focus~span::before,
+.CajaCorreo input:focus~span::before{
+    width: 100%;
+}
+
+
+form .CajaCurp{
+
+    width: 100%;
+    position: relative;
+    border-bottom: 2px solid #562A2A;
+    margin-bottom: 30px;
+}
+
+
+.CajaCurp input{
+    width: 100%;
+    
+    height: 38px;
+    font-size: 16px;
+    border: none;
+    background: none;
+    outline: none;
+}
+
+
+.CajaCurp label{
+    position: absolute;
+    top: -23%;
+    left: 5px;
+    color: #DAC9CD;
+    transform: translateY(-30%);
+    font-size: 17px;
+    pointer-events: none;
+    transition: .6s;
+}
+
+
+.CajaCurp span::before{
+    content: '';
+    position: absolute;
+    top: 40px;
+    left: 0;
+    width: 50%;
+    height: 2px;
+    background: #F6D6F5;
+    transition: .6s;
+}
+
+
+.CajaCurp input:focus~label, 
+.CajaCurp input:focus~label{
+    top: -20px;
+    color: #F6D6F5;
+}
+
+
+.CajaCurp input:focus~span::before,
+.CajaCurp input:focus~span::before{
+    width: 100%;
+
+}
+
+
+form .CajaFecha{
+
+    width: 100%;
+    position: relative;
+    
+    margin-bottom: 30px;
+}
+
+
+.CajaFecha input {
+    width: 100%;
+    
+    height: 38px;
+    font-size: 16px;
+    border: none;
+    background: none;
+    outline: none;
+    margin-top: 10px; /* Ajusta este valor para cambiar la posición vertical del input */
+}
+
+
+.CajaFecha label {
+    position: absolute;
+    top: -23; /* Ajusta este valor para cambiar la posición vertical del label */
+    left: 5px;
+    color: #562A2A;
+    transform: translateY(-30%);
+    font-size: 17px;
+    pointer-events: none;
+    transition: .6s;
+}
+
+
+.CajaFecha span::before {
+    content: '';
+    position: absolute;
+    top: 40px; /* Ajusta este valor para cambiar la posición vertical de la línea */
+    left: 0;
+    width: 50%;
+    height: 2px;
+    background: #F6D6F5;
+    transition: .6s;
+}
+
+
+.BotonRegistrarse {
+    width: 100%;
+    font-size: 1em;
+    background: linear-gradient(45deg, #f73940, #eb757a, #fad0c4);
+    background-size: 200% auto;
+    color: #fff;
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.5s ease; /* Agrega una transición para suavizar el cambio de fondo */
+
+    /* Agrega la animación de brillos */
+    animation: shine 1.5s infinite; /* 1.5s controla la duración, infinite hace que la animación se repita indefinidamente */
+}
+
+
+.BotonRegistrarse:hover,
+.BotonRegistrarse:focus {
+    background-position: 200% center;
+    text-decoration: none;
+}
+
+
+.recordar {
+    text-align: center;
+    margin-top: 25px;
+    font-size: 20px;
+    font-family: "Cambria";
+
+}
+
+
+.InicioSesion {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
